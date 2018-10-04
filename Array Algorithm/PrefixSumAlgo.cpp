@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void prefix(int arr[], int n, int prefixSum[]) // Insertion in Prefixsum array.
+void prefix(int arr[], int n, int prefixsum[]) // Insertion in Prefixsum array.
 { 
     prefixsum[0] = arr[0]; 
     for (int i = 1; i < n; i++) 
